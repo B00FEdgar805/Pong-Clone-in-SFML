@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB17DEB52EECE235001A381E /* Paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB17DEB42EECE235001A381E /* Paddle.cpp */; };
 		EB7C8B732E6F7605000AE2D4 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB7C8B722E6F7605000AE2D4 /* ResourcePath.mm */; };
 		EB7C8B762E6F7605000AE2D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB7C8B752E6F7605000AE2D4 /* main.cpp */; };
 		EB7C8B792E6F7605000AE2D4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB7C8B782E6F7605000AE2D4 /* background.jpg */; };
@@ -39,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB17DEB32EECE235001A381E /* Paddle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Paddle.hpp; sourceTree = "<group>"; };
+		EB17DEB42EECE235001A381E /* Paddle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Paddle.cpp; sourceTree = "<group>"; };
 		EB7C8B6D2E6F7605000AE2D4 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7C8B712E6F7605000AE2D4 /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pong-Info.plist"; path = "../Pong-Info.plist"; sourceTree = "<group>"; };
 		EB7C8B722E6F7605000AE2D4 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -54,6 +57,14 @@
 		EBAF1E862E6F76F5005FF992 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		EBAF1E872E6F76F5005FF992 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB7F62392ECFF61700B70033 /* Assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EB7C8B692E6F7605000AE2D4 /* Frameworks */ = {
@@ -94,6 +105,9 @@
 				EB7C8B752E6F7605000AE2D4 /* main.cpp */,
 				EBAF1E872E6F76F5005FF992 /* Game.cpp */,
 				EBAF1E862E6F76F5005FF992 /* Game.hpp */,
+				EB17DEB42EECE235001A381E /* Paddle.cpp */,
+				EB17DEB32EECE235001A381E /* Paddle.hpp */,
+				EB7F62392ECFF61700B70033 /* Assets */,
 				EB7C8B772E6F7605000AE2D4 /* Resources */,
 				EB7C8B702E6F7605000AE2D4 /* Supporting Files */,
 			);
@@ -145,6 +159,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB7F62392ECFF61700B70033 /* Assets */,
 			);
 			name = Pong;
 			packageProductDependencies = (
@@ -226,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB17DEB52EECE235001A381E /* Paddle.cpp in Sources */,
 				EBAF1E882E6F76F5005FF992 /* Game.cpp in Sources */,
 				EB7C8B762E6F7605000AE2D4 /* main.cpp in Sources */,
 				EB7C8B732E6F7605000AE2D4 /* ResourcePath.mm in Sources */,
