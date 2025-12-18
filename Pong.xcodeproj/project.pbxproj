@@ -8,12 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB17DEB52EECE235001A381E /* Paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB17DEB42EECE235001A381E /* Paddle.cpp */; };
-		EB7C8B732E6F7605000AE2D4 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB7C8B722E6F7605000AE2D4 /* ResourcePath.mm */; };
 		EB7C8B762E6F7605000AE2D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB7C8B752E6F7605000AE2D4 /* main.cpp */; };
-		EB7C8B792E6F7605000AE2D4 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB7C8B782E6F7605000AE2D4 /* background.jpg */; };
-		EB7C8B7B2E6F7605000AE2D4 /* doodle_pop.ogg in Resources */ = {isa = PBXBuildFile; fileRef = EB7C8B7A2E6F7605000AE2D4 /* doodle_pop.ogg */; };
-		EB7C8B7D2E6F7605000AE2D4 /* tuffy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB7C8B7C2E6F7605000AE2D4 /* tuffy.ttf */; };
-		EB7C8B7F2E6F7605000AE2D4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7C8B7E2E6F7605000AE2D4 /* icon.png */; };
 		EB7C8B8B2E6F765C000AE2D4 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7C8B862E6F765C000AE2D4 /* sfml-graphics.framework */; };
 		EB7C8B8C2E6F765C000AE2D4 /* sfml-graphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB7C8B862E6F765C000AE2D4 /* sfml-graphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EB7C8B8F2E6F765C000AE2D4 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7C8B882E6F765C000AE2D4 /* sfml-window.framework */; };
@@ -44,13 +39,7 @@
 		EB17DEB42EECE235001A381E /* Paddle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Paddle.cpp; sourceTree = "<group>"; };
 		EB7C8B6D2E6F7605000AE2D4 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7C8B712E6F7605000AE2D4 /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pong-Info.plist"; path = "../Pong-Info.plist"; sourceTree = "<group>"; };
-		EB7C8B722E6F7605000AE2D4 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		EB7C8B742E6F7605000AE2D4 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		EB7C8B752E6F7605000AE2D4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		EB7C8B782E6F7605000AE2D4 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../background.jpg; sourceTree = "<group>"; };
-		EB7C8B7A2E6F7605000AE2D4 /* doodle_pop.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = doodle_pop.ogg; path = ../doodle_pop.ogg; sourceTree = "<group>"; };
-		EB7C8B7C2E6F7605000AE2D4 /* tuffy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tuffy.ttf; path = ../tuffy.ttf; sourceTree = "<group>"; };
-		EB7C8B7E2E6F7605000AE2D4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		EB7C8B862E6F765C000AE2D4 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../Library/SFML-2.6.2/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
 		EB7C8B882E6F765C000AE2D4 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../Library/SFML-2.6.2/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
 		EB7C8B8A2E6F765C000AE2D4 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../Library/SFML-2.6.2/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
@@ -100,15 +89,12 @@
 		EB7C8B6F2E6F7605000AE2D4 /* Pong */ = {
 			isa = PBXGroup;
 			children = (
-				EB7C8B722E6F7605000AE2D4 /* ResourcePath.mm */,
-				EB7C8B742E6F7605000AE2D4 /* ResourcePath.hpp */,
 				EB7C8B752E6F7605000AE2D4 /* main.cpp */,
 				EBAF1E872E6F76F5005FF992 /* Game.cpp */,
 				EBAF1E862E6F76F5005FF992 /* Game.hpp */,
 				EB17DEB42EECE235001A381E /* Paddle.cpp */,
 				EB17DEB32EECE235001A381E /* Paddle.hpp */,
 				EB7F62392ECFF61700B70033 /* Assets */,
-				EB7C8B772E6F7605000AE2D4 /* Resources */,
 				EB7C8B702E6F7605000AE2D4 /* Supporting Files */,
 			);
 			path = Pong;
@@ -120,17 +106,6 @@
 				EB7C8B712E6F7605000AE2D4 /* Pong-Info.plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EB7C8B772E6F7605000AE2D4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EB7C8B782E6F7605000AE2D4 /* background.jpg */,
-				EB7C8B7A2E6F7605000AE2D4 /* doodle_pop.ogg */,
-				EB7C8B7C2E6F7605000AE2D4 /* tuffy.ttf */,
-				EB7C8B7E2E6F7605000AE2D4 /* icon.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		EB7C8B852E6F765C000AE2D4 /* Frameworks */ = {
@@ -209,10 +184,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7C8B7F2E6F7605000AE2D4 /* icon.png in Resources */,
-				EB7C8B7B2E6F7605000AE2D4 /* doodle_pop.ogg in Resources */,
-				EB7C8B792E6F7605000AE2D4 /* background.jpg in Resources */,
-				EB7C8B7D2E6F7605000AE2D4 /* tuffy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +217,6 @@
 				EB17DEB52EECE235001A381E /* Paddle.cpp in Sources */,
 				EBAF1E882E6F76F5005FF992 /* Game.cpp in Sources */,
 				EB7C8B762E6F7605000AE2D4 /* main.cpp in Sources */,
-				EB7C8B732E6F7605000AE2D4 /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,13 +11,7 @@ Paddle::~Paddle()
     
 }
 
-/*
-void Paddle::setPosition(float x, float y)
-{
-    PADDLE.setPosition(x,y);
-}
-*/
-void Paddle::paddleMovements()
+void Paddle::paddleMovements()  // Checks for player inputs
 {
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::W) || sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
     {
@@ -30,7 +24,7 @@ void Paddle::paddleMovements()
     }
 }
 
-void Paddle::checkBounds()
+void Paddle::checkBounds()  // Makes sure paddle cant leave the screen
 {
     if(PADDLE.getPosition().y < 0 )
     {
@@ -44,16 +38,20 @@ void Paddle::checkBounds()
 }
 
 
-void Paddle::cpuLogic()
+void Paddle::cpuLogic(sf::RectangleShape Ball)  // AI for the cpu
 {
- //   if()
+    if(Ball.getPosition().y > PADDLE.getPosition().y)
     {
-        
+        PADDLE.move(0.f, 1.f * PADDLE_SPEED);
+    }
+    if(Ball.getPosition().y < PADDLE.getPosition().y)
+    {
+        PADDLE.move(0.f, -1.f * PADDLE_SPEED);
     }
 }
 
 
-void Paddle::Render(sf::RenderWindow &Window)
+void Paddle::Render(sf::RenderWindow &Window)   // Draws the paddles
 {
     Window.draw(PADDLE);
 }

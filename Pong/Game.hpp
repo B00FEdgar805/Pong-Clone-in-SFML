@@ -9,12 +9,10 @@ private:
     const int SCREEN_WIDTH = 1280;
     const int SCREEN_HEIGHT = 720;
     const int BALL_VELOCITY = 6;
-    float BALL_X = 1.f;
+    float BALL_X = 1.f; // Init here so I can change only one direction if needed
     float BALL_Y = 1.f;
     int PLAYER_ONE_SCORE = 0;
     int PLAYER_TWO_SCORE = 0;
-   // std::unique_ptr<Paddle> PLAYER_ONE;
-    //std::unique_ptr<Paddle> PLAYER_TWO;
     Paddle PLAYER_ONE;
     Paddle PLAYER_TWO;
     sf::RenderWindow *WINDOW;
