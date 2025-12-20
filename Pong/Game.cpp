@@ -26,7 +26,7 @@ void Game::initText()
 {
     if(!font.loadFromFile("Assets/Orbitron-Regular 2.ttf")) // Returns error if font cant be loaded
     {
-        return EXIT_FAILURE;
+       // return EXIT_FAILURE;
     }
     
     text.setFont(font);
