@@ -2,6 +2,8 @@
 
 ## Discription
 This is a [Pong](https://en.wikipedia.org/wiki/Pong) clone implemented using [SFML 2.6.2](https://www.sfml-dev.org/download/sfml/2.6.2/) and C++. 
+This Version uses only one olayer and you face a CPU. It can be easily changed to 2 players by sepreating the conterols in paddle movements and
+and replacing the cpu logic with 2nd player movements in update. The controls are up arrow / W for up and down arrow / S for down. It also should be easy to run using CMake to build the project after cloning.  
 
 
 ## Screenshot
