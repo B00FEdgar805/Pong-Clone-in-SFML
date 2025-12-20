@@ -17,11 +17,19 @@ https://github.com/user-attachments/assets/7a79c373-ba8f-4ad3-aa69-f4643ab5f384
 
 
 ## Requirements
- - C++ compiler
+ - C++ 11 compiler
  - SFML 2.6.2
+ - CMake 3.16 or above
 
 ## How to Run
 
 ```
-
+git clone https://github.com/B00FEdgar805/Pong-Clone-in-SFML
+cd Pong-Clone-in-SFML
+cd Pong
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+./Pong
 ```
